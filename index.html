@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     function a(x,y){
+      return x*y;
+
+     }
+     let b=a(12,20);
+     document.write(b);
+    </script>
+    <script>
+     /// function perameter
+     function a(b,c){
+      document.write("multiplay=",b*c);
+     }
+     a(4,5);
+    </script>
+
+    
+
+ </head>
+ <body>
+    <!-- <script>
+      let a=[32,45,65,8,9,25];
+      for(let b=0;b<a.length;b++){
+        for(let c=b+1;c<=a.length-1;c++){
+          if(a[b]>a[c]){
+           let t=a[b];
+            a[b]=a[c];
+            a[c]=t;
+          }
+
+        } 
+      }
+     for(let e=0;e<=a.length-1;e++){
+      document.write(a[e]+'  ');
+     }
+    </script> -->
+    <h1>
+      WebP is a modern image format that provides superior lossless and lossy compression for images on the web.</h1>
+      <h2> Using WebP, 
+      webmasters and web developers can create smaller, richer images that make the web faster.</h2>
+     <img src="images/images (11).jpeg" alt="lepTop keybord" height="300px" width="48%" id="lepTop keybord">
+     <img src="images/download (24).jpeg" alt="tablemn" height="300px" width="48%" id="table">
+    <!-- <tr>
+      <td>
+       
+      </td>
+      <td>
+        <img src="images/images (11).jpeg" alt="Beanch" height="300px" width="48%",id="Beanch">
+
+      </td>
+    </tr> -->
+    <h3>WebP lossless images are 26% smaller in size compared to PNGs.
+       WebP lossy images are 25-34% smaller than comparable JPEG images at equivalent SSIM quality index.
+    </h3>
+    <script>
+      var image=document.getElementById('lepTop keybord');
+      image.addEventListener("mouseover",()=>{
+        image.src= "images/images (11).jpeg";
+      });
+      image.addEventListener("mouseout",()=>{
+        image.src="images/images (12).jpeg";
+      });
+      var image2=document.getElementById("table");
+      image2.addEventListener("mouseover",()=>{
+         image2.src="images/download (24).jpeg";
+
+      });
+      image2.addEventListener("mouseout",()=>{
+        image2.src="images/images (12).jpeg";
+
+      });
+    </script>
+<script type="module" src="./village.js" defer></script>
+<h1 id ='num'></h1>
+ </body>
+ </html>
